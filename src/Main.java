@@ -43,7 +43,7 @@ public class Main {
             System.out.printf("Если возраст человека равен %s, то ему нужно ходить в школу.\n", humanAge);
         } else if (humanAge >= 18 && humanAge <= 24) {
             System.out.printf("Если возраст человека равен %s, то ему нужно ходить в университет.\n", humanAge);
-        } else if (humanAge >= 24) {
+        } else if (humanAge > 24) {
             System.out.printf("Если возраст человека равен %s, то ему пора ходить на работу.\n", humanAge);
         }
         System.out.println();
